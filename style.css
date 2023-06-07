@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    max-width: 1000px ;
+    margin: 0 auto;
+}
+
+.logo{
+    text-align: right;
+    margin-top: 20px;
+}
+.logo a img{
+    width: 115px;
+}
+.menu{
+    text-align: right;
+    margin-top: 20px;
+    
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    background: #0054A5;
+    padding: 15px 15px;
+    transition: .5s;
+}
+.menu a:hover{
+    color: #b4ce45;
+}
+
+form{
+    margin-top: 40px;
+}
+
+.red{
+    color:red;
+}
+
+span{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Oswald', sans-serif;
+}
+
+select, input{
+    border: 1px solid #b4ce45;
+    padding: 5px 10px;
+}
+
+P{
+    font-weight: 300;
+}
+
+h2{
+    font-weight: 400;
+    color: #3E4FA1;
+    border-bottom: 1px solid #b4ce45;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+h3{
+    color: #999;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.First_preference{
+    margin: 10px 0 15px 0;
+}
+
+.First_preference p{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
+.First_preference select{
+    margin-left: 30px;
+    border: 1px solid #b4ce45;
+    width: 470px;
+}
+
+.name_section .name{
+    display: block;
+}
+
+.name_section input{
+    margin: 5px 0 15px 0;
+    width: 480px;
+}
+
+.familly_name .gap_l_r{
+    margin-left: 277px;
+    margin-right: 272px;
+}
+
+.input_gap_l_r{
+    margin: 0 60px;
+}
+
+.familly_input input ,select{
+    width: 270px;
+}
+
+.familly_input{
+    margin: 5px 0 15px 0;
+}
+
+.national_id span{
+    display: block;
+}
+
+.national_id input{
+    margin: 5px 0 15px 0;
+    width: 270px;
+}
+
+.date_of_birth .date_span{
+    display: block;
+}
+
+.date_of_birth .date_input input{
+    width: 270px;
+}
+
+.date_of_birth .date_input .date_input_gap{
+    width: 293px;
+}
+
+.date_of_birth .date_span .date_span_gap{
+    margin-left: 277px;
+    margin-right: 302px;
+}
+
+.date_of_birth .date_input .date_input_gap{
+    margin: 5px 60px 15px 60px;
+}
+
+.mobile_email .mobile_spen{
+    display: block;
+}
+
+.mobile_email .mobile_input input{
+    width: 450px;
+    margin: 5px 0 15px 0;
+}
+
+.mobile_email .mobile_spen .mobile_spen_gap{
+    margin-right: 487px;
+}
+
+.mobile_email .mobile_input .mobile_input_gap{
+    margin-right: 50px;
+}
+
+
+.employed div span{
+    margin-left: 224px;
+}
+
+.employed label{
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Oswald', sans-serif;
+}
+.employed .emp{
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 750px;
+
+}
+
+.pres_address .pres_address_span{
+    display: block;
+}
+.pres_address input{
+    width: 95%;
+    margin: 5px 0 15px 0;
+}
+
+.pres_ciyt_post .pres_ciyt_post_span{
+    margin-right: 469px;
+}
+.pres_ciyt_post input{
+    width: 450px;
+}
+.pres_ciyt_post div .pres_ciyt_post_input{
+    margin: 5px 27px 15px 0;
+    
+}
+
+
+
+.pres_division .pres_division_span{
+    margin: 0 295px 0 292px;
+}
+.pres_division select{
+    width: 275px;
+}
+.pres_division .pres_division_select{
+    margin: 5px 70px 15px 70px;
+
+}
+
+
+.hight .hight_span{
+    margin-right: 423px;
+}
+
+
+.hight .hight_select{
+    margin: 5px 70px 15px 0;
+
+}
+
+.sebject .sebject_span{
+    margin-right: 479px;
+}
+.sebject input{
+    width: 450px;
+}
+.sebject .sebject_input{
+    margin: 5px 50px 15px 0;
+}
+
+.photo input{
+    border: 0 solid;
+    margin-left: 0;
+}
+.photo p{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Oswald', sans-serif;
+}
+.security input{
+    display: block;
+    margin: 5px 0 50px 0;
+}
